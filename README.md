@@ -3,6 +3,9 @@ Switch between multiple Rustdesk environments.
 Since Rustdesk always saves config in %appdata%\Rustdesk and i regulary need to switch between different Rustdesk Servers i decided to make this.
 
 How to:
+
+If neccessary, save your peer list, serverconfig, etc. - delete %appdata%\Rustdesk
+
 Create C:\Rustdesk and place Rustdesk-Multi.ps1 and Rustdesk executable there, rename executable to Rustdesk.exe
 
 Create Folder for your environments, eg Company, Private, Public.
