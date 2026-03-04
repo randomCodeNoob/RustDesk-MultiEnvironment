@@ -8,7 +8,13 @@ If neccessary, save your peer list, serverconfig, etc. - delete %appdata%\Rustde
 
 Create C:\Rustdesk and place Rustdesk-Multi.ps1 and Rustdesk executable there, rename executable to Rustdesk.exe
 
-Create Folder for your environments, eg Company, Private, Public.
+Create Folder for your environments, 
+
+C:\Rustdesk\Company
+
+C:\Rustdesk\Private
+
+C:\Rustdesk\Public
 
 Create Shortcuts for
 
