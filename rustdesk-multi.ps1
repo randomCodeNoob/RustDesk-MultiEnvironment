@@ -8,7 +8,7 @@ $link = "$env:APPDATA\RustDesk"
 $target = Join-Path $basePath $ConfigName
 
 if (!(Test-Path $target)) {
-    Write-Error "Config nicht gefunden!"
+    Write-Error "Config not found!"
     exit
 }
 
