@@ -2,7 +2,7 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$ConfigName
 )
-get-process -name rust* | kill -f
+Get-Process -Name "rustdesk" -ErrorAction SilentlyContinue |  Stop-Process -Force
 $basePath = "C:\Rustdesk"
 $link = "$env:APPDATA\RustDesk"
 $target = Join-Path $basePath $ConfigName
